@@ -1,0 +1,6 @@
+.cardMovieSearch:hover
+    .btn-cardSearch{
+        background-color: blue;
+        color: red;
+}
+
