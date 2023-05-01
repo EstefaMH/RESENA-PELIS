@@ -7,7 +7,6 @@ async function AddMovieList() {
             console.log(response.data.results.length);
             console.log(response.data.results[0]);
 
-
             var content = [];
 
             for (let i = 0; i < 3; i++) {
@@ -16,9 +15,7 @@ async function AddMovieList() {
                 console.log(response.data.results[0]);
 
             }
-
             console.log(content)
-
 
             let contentFilter = content.map(function (movie, i) {
 
@@ -86,15 +83,10 @@ async function AddMovieList() {
                  </div>`
                     )
                 }
-
-
             }
             )
-
             console.log(contentFilter);
-            
             return carousell.insertAdjacentHTML('beforeend', contentFilter);
-
         }
         )
 
@@ -143,5 +135,4 @@ async function AddMovieList() {
         .catch(function (error) {
             console.log(error);
         })
-
 }

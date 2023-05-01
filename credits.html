@@ -114,8 +114,9 @@
 								es una base de datos robusta con informacion de mas de 5000 peliculas
 							</p>
 							<p>
-								Se instalaron las dependencias de axios para realizar la peticion asincrona 
-								al servidor y poder recuperar los datos mediante el JSON 
+								Se instalaron las dependencias de axios para realizar la peticion
+								asincrona
+								al servidor y poder recuperar los datos mediante el JSON
 							</p>
 
 						</div>
@@ -126,9 +127,10 @@
 								<h4 class="mb-3 col_red">Interfaz grafica</h4>
 								<p>
 									Se implementaron las dependecias de bootstrap para estilar facilmente,
-									sin embargo también se crearon hojas de estilos en css para complementar 
+									sin embargo también se crearon hojas de estilos en css para
+									complementar
 								</p>
-								<p>Para el Header y Footer se crearon web componentes utilizando js 
+								<p>Para el Header y Footer se crearon web componentes utilizando js
 									y poder hacer que el codigo sea reutilizable </p>
 							</div>
 						</div>
@@ -143,22 +145,22 @@
 				<footer-component></footer-component>
 
 				<script>
-	window.onscroll = function() {myFunction()};
+					window.onscroll = function() {myFunction()};
 
-	var navbar_sticky = document.getElementById("navbar_sticky");
-	var sticky = navbar_sticky.offsetTop;
-	var navbar_height = document.querySelector('.navbar').offsetHeight;
+					var navbar_sticky = document.getElementById("navbar_sticky");
+					var sticky = navbar_sticky.offsetTop;
+					var navbar_height = document.querySelector('.navbar').offsetHeight;
 
-	function myFunction() {
-	if (window.pageYOffset >= sticky + navbar_height) {
-		navbar_sticky.classList.add("sticky")
-		document.body.style.paddingTop = navbar_height + 'px';
-	} else {
-		navbar_sticky.classList.remove("sticky");
-		document.body.style.paddingTop = '0'
-	}
-	}
-</script>
+					function myFunction() {
+					if (window.pageYOffset >= sticky + navbar_height) {
+						navbar_sticky.classList.add("sticky")
+						document.body.style.paddingTop = navbar_height + 'px';
+					} else {
+						navbar_sticky.classList.remove("sticky");
+						document.body.style.paddingTop = '0'
+					}
+					}
+				</script>
 				<script src="Components/Header.js"></script>
 				<script src="Components/Navbar.js"></script>
 				<script src="Components/Footer.js"></script>

@@ -31,7 +31,7 @@ class NavbarComponent extends HTMLElement {
                                 </li>
                             </ul>
                         </div>
-                        <form class="d-flex w-50" action="searchMovie.html">
+                        <form class="container d-flex col-md-6 col-sm-12 mt-3 " action="searchMovie.html">
                             <input type="search" class="form-control bg-black w-60" id='input-search'
                                 autocomplete="autocomplete"
                                 placeholder="Buscar una pelicula">
