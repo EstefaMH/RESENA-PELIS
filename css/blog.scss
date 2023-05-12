@@ -1,10 +1,13 @@
+@import "./style";
+
 /*********************blog****************/
+
 .popular_2i1lm2 {
   padding-top: 200px;
 }
 
 .blog_1r1 {
-  border: 1px solid #27292d;
+  border: 1px solid $color_bg;
 }
 
 .input-group-text {
@@ -17,14 +20,15 @@
   padding: 7px 12px 6px;
   background: #252525;
   margin: 0px 2px 6px 0px;
-}
-.blog_1r1 ul li a:hover {
-  background: #de1002;
-  color: #fff;
+
+  &:hover {
+    background: $color_text;
+    color: $color_primary_white;
+  }
 }
 
 .blockquote {
-  border-left: 5px solid #de1002;
+  border-left: 5px solid $color_text;
 }
 
 .blog_1l2 .social-circle li a {
@@ -40,13 +44,16 @@
 }
 
 /*********************blog_end****************/
+
 @media screen and (max-width: 767px) {
   .blog_1l1i {
     text-align: center;
+
+    p {
+      text-align: left;
+    }
   }
-  .blog_1l1i p {
-    text-align: left;
-  }
+
   .blog_1r1 .button {
     width: 50%;
     text-align: center;
@@ -54,26 +61,32 @@
     margin-right: auto;
     display: block;
   }
+
   .blog_1l3 {
     text-align: center;
   }
+
   .popular_2i1r {
     text-align: center;
     margin-top: 15px;
+
+    p {
+      text-align: left;
+    }
   }
-  .popular_2i1r p {
-    text-align: left;
-  }
+
   .blog_1dt5l {
+    h6 {
+      text-align: center;
+    }
+
     margin-bottom: 15px;
   }
-  .blog_1dt5l h6 {
-    text-align: center;
-  }
 }
+
 @media (min-width: 576px) and (max-width: 767px) {
   .popular_2i1r {
     text-align: left;
     margin-top: 0;
   }
-}/*# sourceMappingURL=blog.css.map */
+}

@@ -1,0 +1,17 @@
+$color_text:#de1002;
+$color_bg : #27292d;
+$color_bg2 : rgba(0, 0, 0, 0.8);
+$color_primary_white : #fff;
+$primary-font : 'Rajdhani', sans-serif;
+
+
+@mixin padding-default {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@mixin borders-default($type , $width , $style , $color) {
+    border-#{$type}: $width $style $color;
+    color: $color;
+}
+

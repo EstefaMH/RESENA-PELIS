@@ -1,0 +1,104 @@
+@import "./style";
+/*********************services****************/
+
+.serv_pg1i {
+    h1 {
+      font-size: 80px;
+    }
+  
+    &:hover {
+      background: $color_text;
+      color: $color_primary_white ;
+      transition: 0.3s;
+  
+      h5 {
+        color: $color_primary_white ;
+      }
+  
+      .button {
+        background: $color_primary_white ;
+        color: $color_text;
+      }
+    }
+  }
+  
+  .spec_m {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #spec {
+    background-image: url(../img/3.jpg);
+    background-position: center;
+  }
+  
+  .spec_1i {
+    border: 1px solid $color_bg ;
+  
+    &:hover {
+      background: $color_text;
+      color: $color_primary_white ;
+  
+      span {
+        color: $color_primary_white ;
+      }
+    }
+  }
+  
+  .price_1i .button {
+    background: #111;
+  
+    &:hover {
+      background: $color_primary_white ;
+    }
+  }
+  
+  /*********************services_end****************/
+  
+  @media screen and (max-width: 767px) {
+    .serv_pg1i {
+      margin-bottom: 15px;
+  
+      h6 {
+        text-align: center;
+      }
+    }
+  
+    .spec_1i {
+      margin-bottom: 15px;
+    }
+  
+    .price_1i {
+      h5, h1 {
+        text-align: center;
+      }
+  
+      margin-bottom: 15px;
+    }
+  
+    .work_1l h4 {
+      text-align: center;
+    }
+  
+    .work_1r {
+      h4 {
+        text-align: center;
+      }
+  
+      margin-top: 15px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    .price_1i {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {}
+  
+  @media (min-width: 992px) and (max-width: 1200px) {}
+  
+  @media (min-width: 1201px) and (max-width: 1255px) {}
+  
